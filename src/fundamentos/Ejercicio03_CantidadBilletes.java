@@ -11,6 +11,13 @@ import java.util.Scanner;
  */
 public class Ejercicio03_CantidadBilletes {
     
+    private static final int CANT_100 = 100;
+    private static final int CANT_50 = 50;
+    private static final int CANT_20 = 20;
+    private static final int CANT_10 = 10;
+    private static final int CANT_5 = 5;
+    private static final int CANT_2 = 2;
+    
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
@@ -20,18 +27,18 @@ public class Ejercicio03_CantidadBilletes {
         monto = Integer.parseInt(input.nextLine());
         
         
-        cant100 = monto / 100;
-        monto = monto % 100; //representa al resto de la división
-        cant50 = monto / 50;
-        monto = monto % 50;
-        cant20 = monto / 20;
-        monto = monto % 20;
-        cant10 = monto / 10;
-        monto = monto % 10;
-        cant5 = monto / 5;
-        monto = monto % 5; 
-        cant2 = monto / 2;
-        monto = monto % 2;
+        cant100 = monto / CANT_100;
+        monto = monto % CANT_100; //representa al resto de la división
+        cant50 = monto / CANT_50;
+        monto = monto % CANT_50;
+        cant20 = monto / CANT_20;
+        monto = monto % CANT_20;
+        cant10 = monto / CANT_10;
+        monto = monto % CANT_10;
+        cant5 = monto / CANT_5;
+        monto = monto % CANT_5; 
+        cant2 = monto / CANT_2;
+        monto = monto % CANT_2;
         
         
         System.out.println("Cantidad de billetes de 100 = " + cant100);

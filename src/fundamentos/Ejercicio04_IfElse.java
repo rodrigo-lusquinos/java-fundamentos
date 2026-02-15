@@ -11,12 +11,12 @@ import java.util.Scanner;
  */
 public class Ejercicio04_IfElse {
     
-    final static int LIMITE_INFERIOR = 0;
-    final static int LIMITE_SUPERIOR = 23;
-    final static int LIMITE_MADRUGADA = 5;
-    final static int LIMITE_MANIANA = 11;
-    final static int LIMITE_MEDIODIA = 13;
-    final static int LIMITE_TARDE = 19;        
+    private static final int LIMITE_INFERIOR = 0;
+    private static final int LIMITE_SUPERIOR = 23;
+    private static final int LIMITE_MADRUGADA = 5;
+    private static final int LIMITE_MANIANA = 11;
+    private static final int LIMITE_MEDIODIA = 13;
+    private static final int LIMITE_TARDE = 19;        
     
     public static void main(String[] args) {        
         //System.setProperty("file.encoding", "UTF-8");

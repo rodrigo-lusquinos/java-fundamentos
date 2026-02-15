@@ -10,7 +10,9 @@ import java.util.Scanner;
  * @author lusqu
  */
 public class Ejercicio02_TerrenoAlambre {
-    final static int CANT_PASADAS = 3;
+    
+    private static final int CANT_PASADAS = 3;
+    
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
