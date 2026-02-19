@@ -30,6 +30,11 @@ public class Ejercicio07_WhileContadorPar {
                 System.out.print(cont + " ");
                 cont -= 2; //es lo mismo que usar cont = cont - 2;
             }
+            
+            /* Así sería si utilizara for para reemplazar el while
+            for (int cont = num; cont >= 0; cont -= 2) {
+                System.out.print(cont + " ");
+            }*/
             System.out.println();
         } else {
             System.out.println("El número debía ser positivo");
